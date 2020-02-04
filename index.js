@@ -9,8 +9,6 @@ const minutes = timeNodes
   .reduce((total, vidminutes) => total + vidminutes);
 
   let minutesLeft = minutes;
-  const mins = Math.floor(minutesLeft / 3600);
-  minutesLeft = minutesLeft % 3600;
   
   const hours = Math.floor(minutesLeft / 60);
   minutesLeft = minutesLeft % 60;
