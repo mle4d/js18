@@ -16,6 +16,11 @@ const minutes = timeNodes
   minutesLeft = minutesLeft % 60;
 
 
-  console.log(hours, minutes, minutesLeft);
+  document.querySelector('.totalhours').innerHTML = hours
+
+  hours 
+  document.querySelector('.totalminutes').innerHTML =
+
+  minutesLeft
 
 
