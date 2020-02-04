@@ -30,15 +30,7 @@
       <li data-time="1:43">When Marnie Was There</li>
       <li data-time="">How Do You Live?</li>
     </ul>
-<script>
-  const timeNodes = Array.from(document.querySelectorAll('[data-time]'));
+    <script src="index.js"></script>
 
-  const minutes = timeNodes
-  .map(node => node.dataset.time)
-  .map(timeCode => {
-    const [hours, mins] = timeCode.split(':').map(parseFloat);
-console.log(hours, mins)
-  })
-</script>
 </body>
 </html>
