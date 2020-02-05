@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin:300&display=swap');
 html {
   background-image: url(assets/bg.png);
   background-size: 105%;
-  /* background-position: 70%; */
   background-repeat: no-repeat;
 }
 body {
@@ -9,19 +9,25 @@ body {
 }
 header {
   background-image: url(assets/logo.png);
-  background-size: 80%;
+  -webkit-filter: drop-shadow( 0 0 40px #ffffff);
+  filter: drop-shadow( 0 0 40px #ffffff);
+  background-size: 100%;
   background-repeat: no-repeat;
-  width: 400px;
-  height: 150px;
-  text-align: right;
-  background-color: red;
+  width: 430px;
+  height: 250px;
   position: fixed;
-  left: 15%;
-  top: 1%;
+  left: 30%;
+  top: -1%;
+}
+h1 {
+  text-align: center;
+  padding-left: 150px;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 3em;
 }
 .bg {
   width: 700px;
-  height: 400px;
+  height: 300px;
   background:  #ffffff;
   border-radius: 10px;
   box-shadow: 10px 10px 0 rgba(2, 2, 2, 0.1);
@@ -31,6 +37,7 @@ header {
   opacity: .5;
   position: fixed;
   left: 20%;
+  top: 40%;
   z-index: -1;
 }
 .movies {
