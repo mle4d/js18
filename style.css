@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Palanquin:300&display=swap');
 html {
   background-image: url(assets/bg.png);
-  background-size: 105%;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
+
 body {
+  overscroll-behavior: none;
   margin: 60px;
 }
 header {
