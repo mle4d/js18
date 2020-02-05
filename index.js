@@ -1,5 +1,6 @@
-const timeNodes = Array.from(document.querySelectorAll('[data-time]'));
 
+const timeNodes = Array.from(document.querySelectorAll('[data-time]'));
+console.log(timeNodes);
 const minutes = timeNodes
   .map(node => node.dataset.time)
   .map(timeCode => {
@@ -14,11 +15,11 @@ const minutes = timeNodes
   minutesLeft = minutesLeft % 60;
 
 
-  document.querySelector('.totalhours').innerHTML = hours
+document.querySelector('.totalhours').innerHTML = hours
 
-  hours 
-  document.querySelector('.totalminutes').innerHTML =
+ 
+document.querySelector('.totalminutes').innerHTML = minutesLeft
 
-  minutesLeft
+
 
 
