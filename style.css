@@ -1,6 +1,6 @@
 html {
   background-image: url(assets/bg.jpg);
-  
+
 }
 body {
   margin: 60px;
@@ -17,8 +17,7 @@ body {
   border: solid 2px red;
   
 }
-.box {
-  width: 45px;
-  height: 60px;
+input {
+  height: 100px;
   border: solid 2px red;
 }
