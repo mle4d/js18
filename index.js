@@ -1,6 +1,5 @@
-
 const timeNodes = Array.from(document.querySelectorAll('[data-time]'));
-console.log(timeNodes);
+
 const minutes = timeNodes
   .map(node => node.dataset.time)
   .map(timeCode => {
