@@ -27,7 +27,10 @@ h1 {
   font-family: 'Palanquin', sans-serif;
   font-size: 2em;
 }
-
+.totalTime {
+  display: flex;
+  flex-direction: row;
+}
 .movies {
   width: 1000px;
   height: 600px;
