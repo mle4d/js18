@@ -15,8 +15,8 @@ header {
   filter: drop-shadow( 0 0 40px #ffffff);
   background-size: 100%;
   background-repeat: no-repeat;
-  width: 330px;
-  height: 150px;
+  width: 300px;
+  height: 100px;
   position: fixed;
   left: 30%;
   top: -1%;
@@ -50,6 +50,16 @@ h1 {
   position: fixed;
   left: 25%;
   top: 20%;
+}
+p {
+  background-color: white;
+  width: 200px;
+  height: 65px;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: -37px;
+  margin-top: 0px;
+  z-index: -1;
 }
 .row1 {
   display: flex;
@@ -102,8 +112,9 @@ h1 {
 }
 .box {
   display: flex;
-  align-items: center;
-  /* align-content: space-between; */
+  align-items: left;
+  /* width: 50px; */
+  
 }
 input[type=checkbox] {
   opacity: 0;
