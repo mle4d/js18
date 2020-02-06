@@ -29,7 +29,7 @@ h1 {
 }
 .bg {
   width: 900px;
-  height: 500px;
+  height: 450px;
   background:  #ffffff;
   border-radius: 10px;
   box-shadow: 10px 10px 0 rgba(2, 2, 2, 0.1);
@@ -133,4 +133,70 @@ label img {
 }
 #l1 {
   background-image: url(assets/uncheckednaus.png);
+}
+#l2 {
+  background-image: url(assets/uncheckedlaputa.png);
+}
+#l3 {
+  background-image: url(assets/uncheckedgrave.png);
+}
+#l4 {
+  background-image: url(assets/uncheckedtotoro.png);
+}
+#l5 {
+  background-image: url(assets/uncheckedkiki.png);
+}
+#l6 {
+  background-image: url(assets/uncheckedonly.png);
+}
+#l7 {
+  background-image: url(assets/uncheckedporco.png);
+}
+#l8 {
+  background-image: url(assets/uncheckedocean.png);
+}
+#l9 {
+  background-image: url(assets/uncheckedpoko.png);
+}
+#l10 {
+  background-image: url(assets/uncheckedheart.png);
+}
+#l11 {
+  background-image: url(assets/uncheckedmono.png);
+}
+#l12 {
+  background-image: url(assets/uncheckedyama.png);
+}
+#l13 {
+  background-image: url(assets/uncheckedspirited.png);
+}
+#l14 {
+  background-image: url(assets/uncheckedthecat.png);
+}
+#l15 {
+  background-image: url(assets/uncheckedhowls.png);
+}
+#l16 {
+  background-image: url(assets/uncheckedearthsea.png);
+}
+#l17 {
+  background-image: url(assets/uncheckedponyo.png);
+}
+#l18 {
+  background-image: url(assets/uncheckedarrietty.png);
+}
+#l19 {
+  background-image: url(assets/uncheckedpoppy.png);
+}
+#l20 {
+  background-image: url(assets/uncheckedwind.png);
+}
+#l21 {
+  background-image: url(assets/uncheckedkaguya.png);
+}
+#l22 {
+  background-image: url(assets/uncheckedmarnie.png);
+}
+#l23 {
+  background-image: url(assets/uncheckedhowdoyou.png);
 }
