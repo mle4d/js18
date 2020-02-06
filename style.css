@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Palanquin:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Palanquin:300&display=swap');
 html {
   background-image: url(assets/bg.png);
   background-size: 100%;
@@ -38,13 +38,16 @@ h1 {
   top: 20%;
 }
 p {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.837);
+  font-family: 'Open Sans Condensed', sans-serif;
   width: 230px;
-  height: 65px;
+  height: 60px;
   border-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
   text-align: center;
-  margin-left: -30px;
-  margin-top: 0px;
+  margin-left: -20px;
+  margin-top: 4px;
   z-index: -1;
 }
 .row1 {
