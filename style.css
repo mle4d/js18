@@ -115,3 +115,29 @@ h1 {
   align-content: space-between;
   padding: 20px;
 }
+input[type=checkbox] {
+  opacity: 0;
+}
+input[type=checkbox]:checked {
+  opacity: 0;
+}
+label {
+  background-image: url(assets/uncheckednaus.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+}
+.check {
+  width: 75px;
+  height: 75px;
+  opacity: 0;
+}
+label img {
+  opacity: 0;
+}
+:checked+label img {
+  transform: scale(0.9);
+  z-index: -1;
+  opacity: 1;
+}
